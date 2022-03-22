@@ -20,3 +20,13 @@ print(y)
 
 y = [int(i) for i in y ]
 print(y)
+
+## Numpy
+
+import numpy as np
+
+a = np.array([[1,2,3],[4,5,6]])
+print(a)
+
+a.dtype
+a.shape
